@@ -3,7 +3,7 @@
 # for more instructions.
 
 board:
-  name: seeed
+  name: seeed macropad
   socs:
     - name: nrf52840
 
