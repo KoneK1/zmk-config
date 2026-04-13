@@ -2,7 +2,7 @@
 # See https://docs.zephyrproject.org/4.1.0/hardware/porting/board_porting.html#write-kconfig-files
 # for more information.
 
-if BOARD_SEEED
+if SHIELD_SEEED
 
 config ZMK_KEYBOARD_NAME
     default "seeed macropad"
@@ -20,4 +20,4 @@ endif # USB
 config BT_CTLR
     default BT
 
-endif # BOARD_SEEED
+endif # SHIELD_SEEED

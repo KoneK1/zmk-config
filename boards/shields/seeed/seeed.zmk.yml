@@ -5,8 +5,12 @@
 file_format: "1"
 id: seeed
 name: seeed macropad
-type: board
-arch: arm
+type: shield
+
+requires:
+  - xiao_ble
+features:
+  - keys
 
 # Set this to a URL that documents the keyboard.
 url: https://example.com

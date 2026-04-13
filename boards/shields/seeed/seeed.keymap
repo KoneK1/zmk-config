@@ -10,7 +10,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        base_layer {
             bindings = <
                 &kp LC(LS(M))
             >;
