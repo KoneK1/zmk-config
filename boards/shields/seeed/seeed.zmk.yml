@@ -4,7 +4,7 @@
 
 file_format: "1"
 id: seeed
-name: seeed macropad
+name: seeed
 type: shield
 
 requires:

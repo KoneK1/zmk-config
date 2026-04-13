@@ -5,7 +5,7 @@
 if SHIELD_SEEED
 
 config ZMK_KEYBOARD_NAME
-    default "seeed macropad"
+    default "seeed"
 
 if USB
 
