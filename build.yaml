@@ -21,5 +21,3 @@
 include:
   - board: xiao_ble
     shield: seeed
-  - board: xiao_ble
-    shield: settings_reset
