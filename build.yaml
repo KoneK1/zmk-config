@@ -21,4 +21,5 @@
 include:
   - board: xiao_ble
     shield: seeed
-    snippet: zmk-usb-logging
+  - board: xiao_ble
+    shield: settings_reset
