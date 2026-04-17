@@ -9,13 +9,16 @@
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
-        input-gpios = <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        input-gpios =
+            <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 
     default_transform: matrix_transform {
         compatible = "zmk,matrix-transform";
         rows = <1>;
-        columns = <1>;
-        map = <RC(0,0)>;
+        columns = <3>;
+        map = <RC(0,0) RC(0,1) RC(0,2)>;
     };
 };
