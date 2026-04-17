@@ -19,9 +19,10 @@
         compatible = "zmk,keymap";
 
         base_layer {
+            /* Same macro on D0/D1/D2 so any wired key works (left/mid/right). */
             bindings = <
-                &none
-                &none
+                &csm
+                &csm
                 &csm
             >;
         };
