@@ -9,7 +9,7 @@
         base_layer {
             bindings = <
                 &bt BT_SEL 0
-                &bt BT_CLR
+                &none
                 &kp LC(LS(M))
             >;
         };
