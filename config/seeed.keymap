@@ -2,28 +2,12 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        csm: ctrl_shift_m {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <30>;
-            bindings
-                = <&macro_press &kp LCTRL &kp LSHIFT>
-                , <&macro_tap &kp M>
-                , <&macro_release &kp LSHIFT &kp LCTRL>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
         base_layer {
-            /* Same macro on D0/D1/D2 so any wired key works (left/mid/right). */
             bindings = <
-                &csm
-                &csm
-                &csm
+                &kp A
             >;
         };
     };
