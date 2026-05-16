@@ -19,3 +19,7 @@
         map = <RC(0,0)>;
     };
 };
+
+&uart0 {
+  status = "disabled";
+};
