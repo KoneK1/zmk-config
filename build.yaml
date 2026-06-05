@@ -19,6 +19,6 @@
 #
 
 include:
-  - board: seeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: seeed
     snippet: zmk-usb-logging
